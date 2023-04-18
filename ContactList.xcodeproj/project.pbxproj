@@ -15,6 +15,7 @@
 		9FEA1F1A29EF12C000E39325 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEA1F1929EF12C000E39325 /* ContactListViewController.swift */; };
 		9FEA1F1C29EF16EA00E39325 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEA1F1B29EF16EA00E39325 /* Person.swift */; };
 		9FEA1F1E29EF184900E39325 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEA1F1D29EF184900E39325 /* DataStore.swift */; };
+		9FEA1F2029EF2D4100E39325 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEA1F1F29EF2D4100E39325 /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9FEA1F1929EF12C000E39325 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		9FEA1F1B29EF16EA00E39325 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9FEA1F1D29EF184900E39325 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		9FEA1F1F29EF2D4100E39325 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9FEA1F0529EF0F2700E39325 /* AppDelegate.swift */,
 				9FEA1F0729EF0F2700E39325 /* SceneDelegate.swift */,
 				9FEA1F1929EF12C000E39325 /* ContactListViewController.swift */,
+				9FEA1F1F29EF2D4100E39325 /* ContactDetailsViewController.swift */,
 				9FEA1F1B29EF16EA00E39325 /* Person.swift */,
 				9FEA1F1D29EF184900E39325 /* DataStore.swift */,
 				9FEA1F0B29EF0F2700E39325 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				9FEA1F1C29EF16EA00E39325 /* Person.swift in Sources */,
 				9FEA1F0629EF0F2700E39325 /* AppDelegate.swift in Sources */,
+				9FEA1F2029EF2D4100E39325 /* ContactDetailsViewController.swift in Sources */,
 				9FEA1F0829EF0F2700E39325 /* SceneDelegate.swift in Sources */,
 				9FEA1F1E29EF184900E39325 /* DataStore.swift in Sources */,
 				9FEA1F1A29EF12C000E39325 /* ContactListViewController.swift in Sources */,
