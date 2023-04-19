@@ -29,8 +29,8 @@ extension ContactListViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Contact", for: indexPath)
         var content = cell.defaultContentConfiguration()
         let contact = contactList[indexPath.row]
-        content.text = contact.name
-        content.secondaryText = contact.surname
+        content.text = contact.fullName
+//        content.secondaryText = contact.surname
         cell.contentConfiguration = content
         return cell
     }

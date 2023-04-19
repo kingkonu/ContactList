@@ -4,6 +4,7 @@
 //
 //  Created by Alexey Kanaev on 4/18/23.
 //
+import Foundation
 
 struct Person {
     let name: String
@@ -16,10 +17,21 @@ struct Person {
     }
     
     static func getContact() -> [Person] {
-        [
-            Person(name: "Ivan", surname: "Ivanov", email: "121212", telephoneNumber: "121212"),
-            Person(name: "Ivan", surname: "Ivanov", email: "11212", telephoneNumber: "12121"),
-            Person(name: "Ivan", surname: "Ivanov", email: "1212", telephoneNumber: "1212")
-        ]
+        var person: [Person] = []
+        nameList.shuffle()
+        surnameList.shuffle()
+        emailList.shuffle()
+        telephoneList.shuffle()
+
+        for _ in 1...10 {
+            let newContact = Person(
+                name: nameList.popLast() ?? "",
+                surname: surnameList.popLast() ?? "",
+                email: emailList.popLast() ?? "",
+                telephoneNumber: telephoneList.popLast() ?? ""
+            )
+            person.append(newContact)
+        }
+        return person
     }
 }

@@ -5,10 +5,7 @@
 //  Created by Alexey Kanaev on 4/18/23.
 //
 
-import Foundation
-
-final class DataStore {
-    let nameList: [String] = [
+    var nameList: [String] = [
         "John",
         "Sarah",
         "Michael",
@@ -20,7 +17,7 @@ final class DataStore {
         "Christopher",
         "Samantha"
     ]
-    let surnameList: [String] = [
+    var surnameList: [String] = [
         "Smith",
         "Johnson",
         "Brown",
@@ -32,7 +29,7 @@ final class DataStore {
         "Lee",
         "Rodriguez"
     ]
-    let emailList: [String] = [
+    var emailList: [String] = [
         "john.smith@email.com",
         "john.smith@email.com",
         "michael.brown@email.com",
@@ -44,7 +41,7 @@ final class DataStore {
         "christopher.lee@email.com",
         "samantha.rodriguez@email.com"
     ]
-    let telephoneList: [String] = [
+    var telephoneList: [String] = [
         "+1-555-123-4567",
         "+1-555-234-5678",
         "+1-555-345-6789",
@@ -56,7 +53,7 @@ final class DataStore {
         "+1-555-901-2345",
         "+1-555-012-3456"
     ]
-}
+
 
 
 
