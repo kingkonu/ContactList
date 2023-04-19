@@ -30,7 +30,6 @@ extension ContactListViewController {
         var content = cell.defaultContentConfiguration()
         let contact = contactList[indexPath.row]
         content.text = contact.fullName
-//        content.secondaryText = contact.surname
         cell.contentConfiguration = content
         return cell
     }

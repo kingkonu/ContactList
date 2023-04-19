@@ -58,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="FW0-eD-ZqW">
-                                <rect key="frame" x="172.66666666666666" y="381" width="48" height="90"/>
+                                <rect key="frame" x="172.66666666666666" y="255" width="48" height="90"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTY-t7-xeZ">
                                         <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
@@ -78,11 +78,13 @@
                         <viewLayoutGuide key="safeArea" id="yba-ia-wVH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="FW0-eD-ZqW" firstAttribute="centerX" secondItem="Gh2-Fx-YVV" secondAttribute="centerX" id="Q4b-9o-fNC"/>
-                            <constraint firstItem="FW0-eD-ZqW" firstAttribute="centerY" secondItem="Gh2-Fx-YVV" secondAttribute="centerY" id="Zag-8m-W9w"/>
+                            <constraint firstItem="FW0-eD-ZqW" firstAttribute="top" secondItem="yba-ia-wVH" secondAttribute="top" constant="100" id="Fbt-K7-2Kj"/>
+                            <constraint firstItem="FW0-eD-ZqW" firstAttribute="centerX" secondItem="Gh2-Fx-YVV" secondAttribute="centerX" id="aL2-LH-gON"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Personal Info" id="bor-wS-QOK"/>
+                    <navigationItem key="navigationItem" title="Personal Info" id="bor-wS-QOK">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="o1w-ep-E6i"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="emailLabel" destination="bHd-bb-TAd" id="Pli-iF-SZp"/>
                         <outlet property="telephoneLabel" destination="jTY-t7-xeZ" id="h2b-mz-CPp"/>
