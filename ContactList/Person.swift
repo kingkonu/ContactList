@@ -5,7 +5,6 @@
 //  Created by Alexey Kanaev on 4/18/23.
 //
 import Foundation
-// второй комментарий
 
 struct Person {
     let name: String
@@ -16,7 +15,7 @@ struct Person {
     var fullName: String {
         "\(name)  \(surname)"
     }
-// привет
+// привет 
 
     static func getContact() -> [Person] {
         var person: [Person] = []
