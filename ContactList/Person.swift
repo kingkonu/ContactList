@@ -36,4 +36,6 @@ struct Person {
         }
         return person
     }
+	
+// Karina loves Putin
 }
