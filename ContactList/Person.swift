@@ -24,6 +24,7 @@ struct Person {
         emailList.shuffle()
         telephoneList.shuffle()
 
+// третий комментарий
         for _ in 1...10 {
             let newContact = Person(
                 name: nameList.popLast() ?? "",
