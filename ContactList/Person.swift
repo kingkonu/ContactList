@@ -15,7 +15,8 @@ struct Person {
     var fullName: String {
         "\(name)  \(surname)"
     }
-    
+// привет 
+
     static func getContact() -> [Person] {
         var person: [Person] = []
         nameList.shuffle()
