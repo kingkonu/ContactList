@@ -6,6 +6,8 @@
 //
 import Foundation
 
+// Karina loves Putin
+
 struct Person {
     let name: String
     let surname: String
@@ -37,5 +39,5 @@ struct Person {
         return person
     }
 	
-// Karina loves Putin
+
 }
